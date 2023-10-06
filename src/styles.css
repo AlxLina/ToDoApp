@@ -1,0 +1,92 @@
+body{
+    font-family: 'Croissant One', cursive;
+    text-align: center;
+    background-image: url(../img/bg.jpg);
+    font-size: 40px;
+}
+
+.container{
+    background-color:rgb(230, 121, 252);
+    border: 5px solid pink;
+    border-radius: 20px;
+    position: relative;
+    top: 200px;
+    justify-content: center;
+    left: 40%;
+    width: 350px;
+    height:auto;
+}
+.title{
+    color: aliceblue;
+}
+
+.input{
+    height: auto;
+}
+
+.input_plan{
+    border: 2px solid pink;
+    border-radius: 10px;
+    height: 30px;
+    margin: 30px 0px;
+    width: 200px;
+    font-family: 'Croissant One', cursive;
+}
+
+.add_plan{
+    border: 0px solid;
+    border-radius: 10px;
+    height: 30px;
+    width: 50px;
+    background-color: rgb(183, 74, 255);
+    font-family: 'Croissant One', cursive;
+    font-size: 15px;
+}
+
+.delete:hover{
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+.plans{
+    position: relative;
+    top: -15px;
+}
+.created_plans{
+    position: relative;
+}
+.new_plan{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid white;
+    background-color: pink;
+    border-radius: 15px;
+    height: 100px;
+    width: 90%;
+    position: relative;
+    left: 15px;
+    font-size: 26px;
+}
+.text_plan{
+    position: relative;
+    left: 10px;
+}
+.box_action{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 70px;
+}
+.done{
+
+    height: 25px;
+}
+.delete{
+    background-color: transparent;
+    border: 0;
+}
+
+img{
+    width: 24px;
+}
