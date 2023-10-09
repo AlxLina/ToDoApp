@@ -1,5 +1,5 @@
 body{
-    font-family: 'Croissant One', cursive;
+    font-family: 'Croissant One', cursive;   
     text-align: center;
     background-image: url(../img/bg.jpg);
     font-size: 40px;
@@ -89,4 +89,42 @@ body{
 
 img{
     width: 24px;
+}
+@media(max-width: 2000px){
+    .container{
+        position: relative;
+        top: 100px;
+        left: 800px;
+    }
+}
+@media(max-width: 1600px){
+    .container{
+        position: relative;
+        top: 75px;
+        left: 620px;
+    }
+}
+
+@media(max-width: 1200px){
+    .container{
+        position: relative;
+        top: 75px;
+        left: 420px;
+    }
+}
+
+@media(max-width: 992px){
+    .container{
+        position: relative;
+        top: 75px;
+        left: 316px;
+    }
+}
+
+@media(max-width: 780px){
+    .container{
+        position: relative;
+        top: 50px;
+        left: 204px;
+    }
 }
